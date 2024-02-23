@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.newsfeed {
+    height: 22px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.news-slide {
+    display: flex;
+    animation: 10s slide infinite linear;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.news-slide:hover {
+    animation: none;
+    text-decoration: underline;
+}
+
+.headlines {
+    height: 15px;
+    width: fit-content;
+}
+
+.headlines-image {
+    height: 20px;
+    width: 15px;
+    margin: 0 20px;
+}
+
+.article {
+    display: flex;
+    height: 220px;
+    width: 100%;
+}
+
+.pic {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+.pic img {
+    height: 200px;
+    width: 200px;
+    
+}
+
+.pic img:hover {
+    
+}
+
+.text-content {
+    padding: 15px 0 10px 10px;
+
+}
+
+h4 {
+    
+}
+
+.date {
+    margin: 20px 0;
+}
+
+.latest {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin-right: 10px;
+    z-index: 1;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%)
+    }
+}
+
