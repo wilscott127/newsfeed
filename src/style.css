@@ -53,8 +53,10 @@
     
 }
 
+
+
 .pic img:hover {
-    
+    display: 
 }
 
 .text-content {
@@ -86,4 +88,35 @@ h4 {
         transform: translateX(-100%)
     }
 }
+
+.pic-style {
+
+    
+        color:white;
+        background-color:rgba(0,0,0,0.3);
+        text-align: center;
+        transition: 1s; /*Standard, IE 10*/
+         -webkit-transition: 1s; /* For Chrome, Safari*/
+         -moz-transition: 1s; /* For Firefox*/
+         -o-transition:1s; /* For Opera*/
+         color:transparent;
+         position: absolute;
+         top: 170px;
+         right: 55px;
+
+
+
+
+         
+         
+
+}
+
+div.pic:hover div.pic-style{
+    padding-top:10px;
+    padding-bottom:30px;   
+    color:white;
+}
+
+
 
